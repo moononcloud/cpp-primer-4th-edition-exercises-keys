@@ -1,0 +1,23 @@
+#ifndef
+#define
+#include <fstream>
+#include <string>
+#include <vector>
+#include <map>
+#include <set>
+class TextQuery
+{
+	public:
+		typedef std::vector<std::string>::size_type line_no;
+		void read_file(std::ifstream &ifs)
+		{store_file(ifs);map_build();}
+		std::set<line_no> run_query(string&) const;
+		std::string text_line(line_no) const;
+
+	private:
+		void store_file(std::ifstream&);
+		void map_build();
+		std::map< std::string,std::set<line_no> > word_map;
+		std::vector<string> line_of_text;
+}
+#endif
