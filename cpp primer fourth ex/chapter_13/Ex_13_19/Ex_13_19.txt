@@ -1,0 +1,1 @@
+./Debug/main.cpp.o ./Debug/message.cpp.o ./Debug/folder.cpp.o

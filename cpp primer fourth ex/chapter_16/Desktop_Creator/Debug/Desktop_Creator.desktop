@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Desktop_Creator
+Comment=Desktop_Creator
+Exec=/home/dzc/Desktop_Creator
+Icon=/usr/share/pixmaps/gnome-terminal.xpm
+Terminal=true
+Type=Application
+Categories=Application;Development;

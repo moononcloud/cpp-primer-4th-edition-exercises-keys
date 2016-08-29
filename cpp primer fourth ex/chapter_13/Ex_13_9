@@ -1,0 +1,11 @@
+class Employee
+{
+	public:
+	Employee():name(" "),ID_num(0){}
+	Employee& Employee::operator=(const Employee &rhs)
+	{name=rhs.name;ID_num=rhs.ID_num;return *this;}
+	Employee(const Employee &rs):name=rs.name,ID_num=rs.ID_num{}
+	private:
+	std::string name;
+	int  ID_num;
+};

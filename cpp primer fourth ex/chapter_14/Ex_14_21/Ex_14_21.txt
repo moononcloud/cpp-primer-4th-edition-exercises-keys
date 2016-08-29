@@ -1,0 +1,1 @@
+./Debug/main.cpp.o ./Debug/screenptr.cpp.o ./Debug/scrptr.cpp.o ./Debug/ptrscr.cpp.o
